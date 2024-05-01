@@ -1,0 +1,11 @@
+#Part1-Landing {
+  background-image: url("../../../../../assets/16.jpg");
+  background-size: cover;
+  font-family: Monserrat;
+  color: #ffffff;
+}
+
+#Press-Landing {
+  background-color: rgba(6,102,84,0.5);
+}
+

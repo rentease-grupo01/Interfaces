@@ -1,0 +1,36 @@
+<div id="Fondo">
+  <nav class="navbar navbar-expand-md navbar navbar-main navbar-expand-lg px-0 mx-4 border-radius-xl shadow-none navbar-light" id="navbarBlur" navbar-scroll="true">
+    <div class="container-fluid">
+      <a routerLink="/home">
+        <img src="../../../../../assets/logor.png" style="width: 140px; margin-right: 40px;">
+      </a>
+      <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4 w-100" id="navbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item" *ngIf="isLandingPage">
+            <a class="nav-link active fs-5" [routerLink]="['/home']" fragment="Servicios-Landing" style="margin-right: 30px;">
+              <strong>Servicios</strong>
+            </a>
+          </li>
+          <li class="nav-item" *ngIf="isLandingPage">
+            <a class="nav-link active fs-5" href="#">
+              <strong>Equipo</strong>
+            </a>
+          </li>
+          <li class="nav-item" *ngIf="isLandingPage">
+            <a class="nav-link active fs-5" href="#" style="margin-left: 25px">
+              <strong>Soporte</strong>
+            </a>
+          </li>
+        </ul>
+        <div id="Busqueda" class="ms-md-auto pe-md-3 d-flex align-items-center" style="padding-right: 0px; margin-right: 0px;">
+        </div>
+        <button class="btn" id="Login-Buton" type="button" style="margin-right: 10px; border-style: none; border-right-style: none; background: rgba(0,0,0,0);" routerLink="/list-aloj">
+          <strong>Login</strong>
+        </button>
+      </div>
+      <a class="btn btn-primary" role="button" id="Register-Buton" style="border-style: none;" routerLink="/log-reg">
+        <strong>Sign Up</strong>
+      </a>
+    </div>
+  </nav>
+</div>
