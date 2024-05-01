@@ -1,0 +1,39 @@
+.card {
+  align-items: center;
+  background-color: #00000000;
+}
+
+#Fondo {
+  background-color: #60E4CB;
+}
+
+.container{
+  border-radius: 30px;
+  padding: auto;
+}
+
+#E1{
+background-image: url(../../../../../assets/LEON.jpg);
+background-size: cover;
+}
+
+#E2{
+  background-image: url(../../../../../assets/YEPEZ.png);
+  background-size: cover;
+}
+
+#E3{
+  background-image: url(../../../../../assets/MORAN.jpg);
+  background-size: cover;
+}
+
+#E4{
+  background-image: url(../../../../../assets/YENGLE.jpg);
+  background-size: cover;
+}
+
+#E5{
+  background-image: url(../../../../../assets/BAZAURI.jpg);
+  background-size: cover;
+}
+
