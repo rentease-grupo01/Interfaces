@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 
 *,
 *::before,
@@ -13,6 +14,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2.5vw;
+}
+
+h3{
+  color: white;
 }
 
 img {
@@ -122,4 +128,29 @@ img {
   height: 100px;
   z-index: 0;
   background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+}
+
+#IMG1{
+  background-image: url(../../../../../assets/aumentos-alquiler.jpg);
+  background-size: cover;
+}
+
+#IMG2{
+  background-image: url(../../../../../assets/aumentos-alquiler.jpg);
+  background-size: cover;
+}
+
+#IMG3{
+  background-image: url(../../../../../assets/aumentos-alquiler.jpg);
+  background-size: cover;
+}
+
+#IMG4{
+  background-image: url(../../../../../assets/aumentos-alquiler.jpg);
+  background-size: cover;
+}
+
+#IMG5{
+  background-image: url(../../../../../assets/aumentos-alquiler.jpg);
+  background-size: cover;
 }

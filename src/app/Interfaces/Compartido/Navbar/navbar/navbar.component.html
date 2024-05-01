@@ -1,23 +1,23 @@
 <div id="Fondo">
-  <nav class="navbar navbar-expand-md navbar navbar-main navbar-expand-lg px-0 mx-4 border-radius-xl shadow-none navbar-light" id="navbarBlur" navbar-scroll="true">
+  <nav class="navbar navbar-expand-md navbar navbar-main navbar-expand-lg px-0  shadow-none navbar-light" id="navbarBlur" navbar-scroll="true" [class.fixed]="shouldBeFixed">
     <div class="container-fluid">
-      <a routerLink="/home">
+      <a routerLink="/home" fragment="Part1-Landing">
         <img src="../../../../../assets/logor.png" style="width: 140px; margin-right: 40px;">
       </a>
       <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4 w-100" id="navbar">
         <ul class="navbar-nav me-auto">
           <li class="nav-item" *ngIf="isLandingPage">
-            <a class="nav-link active fs-5" [routerLink]="['/home']" fragment="Servicios-Landing" style="margin-right: 30px;">
+            <a class="nav-link active fs-5" [routerLink]="['/home']" fragment="Servicios-Landing" (click)="onServiciosClick()"style="margin-right: 30px;">
               <strong>Servicios</strong>
             </a>
           </li>
           <li class="nav-item" *ngIf="isLandingPage">
-            <a class="nav-link active fs-5" href="#">
+            <a class="nav-link active fs-5" [routerLink]="['/home']" fragment="Equipo-Trabajo" (click)="onEquipoClick">
               <strong>Equipo</strong>
             </a>
           </li>
           <li class="nav-item" *ngIf="isLandingPage">
-            <a class="nav-link active fs-5" href="#" style="margin-left: 25px">
+            <a class="nav-link active fs-5" [routerLink]="['/home']" fragment="Soporte" (click)="onSoporteClick" style="margin-left: 25px">
               <strong>Soporte</strong>
             </a>
           </li>
